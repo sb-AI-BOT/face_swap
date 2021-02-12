@@ -1,2 +1,3 @@
 # face_swap
-Swapping the face using opencv
+Swapping the face using dlib
+
