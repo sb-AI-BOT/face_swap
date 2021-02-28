@@ -3,13 +3,34 @@
 Swapping the face from two images using dlib and opencv
 
 
- 		Source     							Destination
+| Source | Destination |
+| --- | --- |
+|![](img/jackie.jpg) | ![](img/amir.jpg) | 
+
+| Result |
+| --- |
+|![jackie_face](https://user-images.githubusercontent.com/67555058/109412347-7437c280-79cd-11eb-8627-047243346ba1.jpg)|
 
 
-		![jackie_](https://user-images.githubusercontent.com/67555058/109411668-c24ac700-79c9-11eb-881d-d0aa33144444.jpg)   
+### Git Clone
+```sh
+git clone https://github.com/sb-AI-BOT/face_swap.git
+```
 
-										Destination
+## Installation
+### Requirements
+* `pip install -r requirements.txt`
 
-![amir_resize](https://user-images.githubusercontent.com/67555058/109411740-2ff6f300-79ca-11eb-8baa-5757fc90e49b.jpg)
-     
+Note: See [requirements.txt](requirements.txt) for more details.
+
+### Swap Your Face
+```sh
+python faceswap.py --src_img  --dst_img
+```
+ 
+## More Results
+| From | To |
+| --- | --- |
+| !![elonmusk](https://user-images.githubusercontent.com/67555058/109412599-e0ff8c80-79ce-11eb-9850-f20c6bb6b5cc.jpg) | !![elon_iron](https://user-images.githubusercontent.com/67555058/109412609-ebba2180-79ce-11eb-9744-bb4cb3ae2241.jpg)
+ |
 
