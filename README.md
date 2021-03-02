@@ -11,7 +11,7 @@ Swapping the face from two images using dlib and opencv
 | --- |
 |![jackie_face](https://user-images.githubusercontent.com/67555058/109412347-7437c280-79cd-11eb-8627-047243346ba1.jpg)|
 
-
+## Get started
 ### Git Clone
 ```sh
 git clone https://github.com/sb-AI-BOT/face_swap.git
@@ -32,7 +32,7 @@ Download the [**shape_predictor_81_face_landmarks**](https://drive.google.com/fi
 
 ### Swap Your Face
 ```sh
-python faceswap.py --src_img  --dst_img
+python face_swap.py --src_img  --dst_img
 ```
  
 ## More Results
