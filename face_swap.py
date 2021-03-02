@@ -55,6 +55,6 @@ center_f = (int((x + x + w) / 2), int((y + y + h) / 2))
 
 seamlessclone = cv2.seamlessClone(out, img2, img2_mask_2, center_f, cv2.NORMAL_CLONE)
 print(seamlessclone)
-cv2.imwrite("/content/drive/MyDrive/face_swap/img/elon_iron.jpg",seamlessclone)
+cv2.imwrite("./out/out.jpg",seamlessclone)
 #cv2_imshow(seamlessclone)
 
