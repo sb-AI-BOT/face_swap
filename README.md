@@ -35,11 +35,3 @@ Download the [**shape_predictor_81_face_landmarks**](https://drive.google.com/fi
 python face_swap.py --src_img  --dst_img
 ```
  
-## More Results
-| From | To |
-| --- | --- |
-| ![elonmusk](https://user-images.githubusercontent.com/67555058/109412599-e0ff8c80-79ce-11eb-9850-f20c6bb6b5cc.jpg) | ![elon_iron](https://user-images.githubusercontent.com/67555058/109412609-ebba2180-79ce-11eb-9744-bb4cb3ae2241.jpg) |
-
-
-
-
